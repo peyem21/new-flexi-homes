@@ -399,7 +399,7 @@ const AffiliateProgram = () => {
     
 
     // Simulating successful form submission (replace with actual API call)
-    fetch('https://new-flexi-server.vercel.app/api/send-emai', {
+    fetch('https://new-flexi-server.vercel.app/api/send-email', {
       method: 'POST',
       body: formData,
     })
