@@ -144,7 +144,7 @@ const Contact = () => {
 
     try {
         // Send data to the backend
-        const response = await fetch('https://new-flexi-server.vercel.app/contact', {
+        const response = await fetch('https://new-flexi-server.vercel.app/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
