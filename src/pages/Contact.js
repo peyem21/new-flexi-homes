@@ -97,11 +97,6 @@ const Contact = () => {
 
   const [formStatus, setFormStatus] = useState({ submitted: false, error: false, message: '' });
 
-  // api.js or wherever you make API calls
-  const API_URL = process.env.NODE_ENV === 'development' 
-  ? 'http://localhost:3001' 
-  : 'https://new-flexi-server.vercel.app';
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContactForm({ ...contactForm, [name]: value });
@@ -140,7 +135,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
-    
 
     // Simple validation
     if (!contactForm.name || !contactForm.email || !contactForm.message) {
@@ -150,7 +144,7 @@ const Contact = () => {
 
     try {
         // Send data to the backend
-        const response = await fetch(`${API_URL}/api/contact`, {
+        const response = await fetch('https://new-flexi-server.vercel.app/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
