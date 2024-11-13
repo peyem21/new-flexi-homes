@@ -1,5 +1,5 @@
 // import FlexiHomes_Logo_ble from '../images/FlexiHomes_Logo_ble.webp';
-import FLEXI_FLIER_cc3 from '../images/FLEXI_FLIER_cc3.webp';
+// import FLEXI_FLIER_cc3 from '../images/FLEXI_FLIER_cc3.webp';
 import FLEXI_FLIER_Ilorin1 from '../images/FLEXI_FLIER_Ilorin1.webp';
 import FLEXI_FLIER_Ilorin2 from '../images/FLEXI_FLIER_Ilorin2.webp';
 import FLEXI_FLIER_karshi from '../images/FLEXI_FLIER_karshi.webp';
