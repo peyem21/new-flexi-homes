@@ -4,7 +4,12 @@ import FLEXI_FLIER_Ilorin1 from '../images/FLEXI_FLIER_Ilorin1.webp';
 import FLEXI_FLIER_Ilorin2 from '../images/FLEXI_FLIER_Ilorin2.webp';
 import FLEXI_FLIER_karshi from '../images/FLEXI_FLIER_karshi.webp';
 import FLEXI_FLIER_KarshiAbuja from '../images/FLEXI_FLIER_KarshiAbuja.webp';
-import FLEXI_FLIER_DOHA from '../images/FLEXI_FLIER_DOHA.webp'
+import FLEXI_FLIER_DOHA from '../images/FLEXI_FLIER_DOHA.webp';
+import Flexi_Asgard_Estate from '../images/Flexi_Asgard_Estate.webp';
+import Flexi_CapeVille from '../images/Flexi_CapeVille.webp';
+import FLEXI_FLIER_cc3 from '../images/FLEXI_FLIER_cc3.webp';
+import FLEXI_FLIER_karshi_1 from '../images/FLEXI_FLIER_karshi_1.webp';
+import FLEXI_FLIER_royal_valley from '../images/FLEXI_FLIER_royal_valley.webp';
 import user from '../images/user.jpg';
 // import FlexiHomes_BANNER_MK from '../images/FlexiHomes_BANNER_MK.webp';
 
@@ -35,7 +40,7 @@ export const properties = [
     {
         id: 4,
         image: FLEXI_FLIER_karshi,
-        title: 'Karshi Abuja',
+        title: 'Karshi, Abuja',
         price: 'from ₦2.5M',
         description: '300sqm-₦2.5M • 400sqm-₦3.5M • 600sqm-₦5M',
     },
@@ -52,6 +57,41 @@ export const properties = [
         title: 'Royal Valley Estate Ganiki, Sango, Ilorin, Kwara State.',
         price: 'from ₦350K',
         description: 'Full Plot(450sqm/50 x 100ft) - ₦1.3M • Half Plot(225sqm/50 x 50ft) - ₦750K',
+    },
+    {
+        id: 7,
+        image: Flexi_Asgard_Estate,
+        title: 'Kuje, Abuja',
+        price: 'from ₦4.2M',
+        description: '300sqm-₦4.2M • 600sqm-₦8.4M • 600sqm-₦12.6M',
+    },
+    {
+        id: 8,
+        image: Flexi_CapeVille,
+        title: 'Katampe Hill Top, Abuja',
+        price: 'from ₦50K per sqm',
+        description: '200sqm-₦10M • 300sqm-₦15M • 500sqm-₦25M',
+    },
+    {
+        id: 9,
+        image: FLEXI_FLIER_cc3,
+        title: 'Capital City, Phase 3, Kuje, Abuja',
+        price: 'from ₦2.1M',
+        description: '150sqm-₦2.1M • 300sqm-₦4.2M • 600sqm-₦8.4M',
+    },
+    {
+        id: 10,
+        image: FLEXI_FLIER_karshi_1,
+        title: 'Karshi, Abuja',
+        price: 'from ₦2M',
+        description: '200sqm-₦2M • 250sqm-₦3M • 300sqm-₦3.3M 400sqm-₦4.5M • 500sqm-₦5M • 900sqm-₦9M',
+    },
+    {
+        id: 11,
+        image: FLEXI_FLIER_royal_valley,
+        title: 'Royal Valley Estate Ganiki, Sango, Ilorin, Kwara State.',
+        price: 'from ₦350K',
+        description: 'Full Plot(450sqm | 50 x 100ft)',
     },
     {
         id: 3,
