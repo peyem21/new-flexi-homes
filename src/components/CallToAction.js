@@ -43,7 +43,7 @@ const CallToAction = () => {
   };
 
   return (
-    <div className="bg-blue-600 py-16">
+    <div className="bg-blue-600 py-16 montserrat-font">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-bold text-white mb-4">
           Ready to Find Your Dream Home?

@@ -68,7 +68,7 @@ function Nav() {
   let navbar = isOpen ? `w-full block absolute bg-gray-500 w-4/12 p-2 z-50 right-0 ${gb}` : 'w-full lg:flex lg:items-center lg:w-auto hidden';
 
   return (
-    <nav className='bg-gradient-to-r from-blue-700 to-green-100'>
+    <nav className='bg-gradient-to-r from-blue-700 to-green-100 montserrat-font montserrat-font'>
       <div className='container mx-auto flex justify-between items-center lg:h-16 px-2'>
         <Link to='/' className='flex-shrink-0'>
           <img src={FlexiHomes_Logo_ble} className='w-32' alt='FlexiHomes Logo' />

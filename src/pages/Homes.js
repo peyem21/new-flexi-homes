@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 function Homes() {
   return (
     
-    <div className="bg-gray-200 text-gray-800">
+    <div className="bg-gray-200 text-gray-800 montserrat-font">
       <HeroSection/>
       <FeaturedProperties/>
       <WhyChooseUs/>

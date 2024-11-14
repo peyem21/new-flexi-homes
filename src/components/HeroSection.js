@@ -5,7 +5,7 @@ const HeroSection = () => {
   let gb = 'bg-gradient-to-r from-blue-200'
   let text_gb = 'bg-gradient-to-r from-blue-200 to-blue-500 bg-clip-text text-transparent' 
   return (
-    <div className="relative bg-cover bg-center p-2 block office flex justify-center items-center" loading="lazy">
+    <div className="relative bg-cover bg-center p-2 block office flex justify-center items-center montserrat-font" loading="lazy">
 
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       

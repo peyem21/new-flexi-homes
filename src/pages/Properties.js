@@ -4,7 +4,7 @@ import { properties } from '../components/Data';
 const Properties = () => {
 
   return (
-    <div className=" zoom-background">
+    <div className=" zoom-background montserrat-font">
       <div className="max-w-7xl mx-auto py-4 pb-16 bg-slate-200 px-4 sm:px-6 lg:px-8 shadow">
         <h2 className="text-4xl font-bold text-center text-blue-600 mb-8">Featured Properties</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

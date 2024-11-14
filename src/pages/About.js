@@ -14,7 +14,7 @@ const About = () => {
     //     )
     // })
   return (
-    <div className="bg-slate-200 py-16">
+    <div className="bg-slate-200 py-16 montserrat-font">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-bold text-blue-600 mb-8 text-left">About Us</h2>
 
