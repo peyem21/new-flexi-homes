@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router className="montserrat-font">
         <Nav/>
         <Routes>
           <Route path='/' element={<Homes/>}/>
