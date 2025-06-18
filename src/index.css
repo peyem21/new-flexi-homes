@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
 .montserrat-font {
   font-family: "Montserrat", sans-serif;
