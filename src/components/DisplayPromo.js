@@ -27,9 +27,9 @@ function DisplayPromo() {
           </div>
         </div>
       ) : (
-        <div className="p-4 sm:p-8">
-          <h1 className="text-xl sm:text-2xl font-bold">hello</h1>
-          <h1 className="text-base sm:text-xl">Welcome to My Website</h1>
+        <div className="">
+          {/* <h1 className="text-xl sm:text-2xl font-bold">hello</h1>
+          <h1 className="text-base sm:text-xl">Welcome to My Website</h1> */}
         </div>
       )}
     </div>
