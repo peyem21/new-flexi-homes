@@ -10,6 +10,12 @@ import Flexi_CapeVille from '../images/Flexi_CapeVille.webp';
 import FLEXI_FLIER_cc3 from '../images/FLEXI_FLIER_cc3.webp';
 import FLEXI_FLIER_karshi_1 from '../images/FLEXI_FLIER_karshi_1.webp';
 import FLEXI_FLIER_royal_valley from '../images/FLEXI_FLIER_royal_valley.webp';
+import FlexiHomesCC4 from '../images/FlexiHomesCC4.webp';
+import FlexiAvanzaEstate from '../images/FlexiAvanzaEstate.webp';
+import FlexiELYSIANHEIGHTS from '../images/FlexiELYSIANHEIGHTS.webp';
+import FlexiMalete from '../images/FlexiMalete.webp';
+
+
 import user from '../images/user.jpg';
 // import FlexiHomes_BANNER_MK from '../images/FlexiHomes_BANNER_MK.webp';
 
@@ -27,22 +33,29 @@ export const properties = [
       id: 1,
       image: FLEXI_FLIER_cc3,
       title: 'Capital City Phase 3 Kuje, Abuja.',
-      price: 'from ₦1.8M',
-      description: '150sqm-₦1.8M • 300sqm-₦3.6M • 600sqm-₦7.2M',
+      price: 'from ₦3.75M',
+      description: '150sqm - ₦3.75M • 300sqm - ₦7.5M • 600sqm - SOLD OUT',
+    },
+    {
+        id: 12,
+        image: FlexiHomesCC4,
+        title: 'Capital City Phase 4 Kuje, Abuja.',
+        price: 'from ₦1.8M',
+        description: '150sqm - ₦1.8M • 300sqm - ₦3.6M • 600sqm - ₦7.2M',
     },
     {
       id: 2,
       image: FLEXI_FLIER_DOHA,
       title: 'DOHA Residence IDU, Abuja',
       price: 'from ₦7.5M',
-      description: '300sqm-₦7.5M • 400sqm-₦11.2M • 600sqm-₦15M',
+      description: '300sqm - ₦7.5M • 400sqm - ₦11.2M • 600sqm - ₦15M',
     },
     {
         id: 4,
         image: FLEXI_FLIER_karshi,
         title: 'Karshi, Abuja',
         price: 'from ₦2.5M',
-        description: '300sqm-₦2.5M • 400sqm-₦3.5M • 600sqm-₦5M',
+        description: '300sqm - ₦2.5M • 400sqm - ₦3.5M • 600sqm - ₦5M',
     },
     {
         id: 5,
@@ -51,48 +64,70 @@ export const properties = [
         price: 'from ₦350K',
         description: 'Acre(3600sqm/8plots) - ₦2.5M • Plot(450sqm/50 x 100ft) - ₦350K',
     },
-    {
-        id: 6,
-        image: FLEXI_FLIER_KarshiAbuja,
-        title: 'Royal Valley Estate Ganiki, Sango, Ilorin, Kwara State.',
-        price: 'from ₦350K',
-        description: 'Full Plot(450sqm/50 x 100ft) - ₦1.3M • Half Plot(225sqm/50 x 50ft) - ₦750K',
-    },
+    // {
+    //     id: 6,
+    //     image: FLEXI_FLIER_KarshiAbuja,
+    //     title: 'Royal Valley Estate Ganiki, Sango, Ilorin, Kwara State.',
+    //     price: 'from ₦350K',
+    //     description: 'Full Plot(450sqm/50 x 100ft) - ₦1.3M • Half Plot(225sqm/50 x 50ft) - ₦750K',
+    // },
     {
         id: 7,
         image: Flexi_Asgard_Estate,
-        title: 'Kuje, Abuja',
-        price: 'from ₦4.2M',
-        description: '300sqm-₦4.2M • 600sqm-₦8.4M • 600sqm-₦12.6M',
+        title: 'Asgard Estate, Kuje, Abuja',
+        price: 'from ₦4.7M',
+        description: '300sqm - ₦4.7M • 600sqm - ₦9.4M • 600sqm - ₦14.1M',
     },
     {
         id: 8,
         image: Flexi_CapeVille,
         title: 'Katampe Hill Top, Abuja',
         price: 'from ₦50K per sqm',
-        description: '200sqm-₦10M • 300sqm-₦15M • 500sqm-₦25M',
+        description: '200sqm - ₦10M • 300sqm - ₦15M • 500sqm -  ₦25M',
     },
     {
         id: 9,
-        image: FLEXI_FLIER_cc3,
-        title: 'Capital City, Phase 3, Kuje, Abuja',
-        price: 'from ₦2.1M',
-        description: '150sqm-₦2.1M • 300sqm-₦4.2M • 600sqm-₦8.4M',
+        image: FlexiAvanzaEstate,
+        title: 'Avanza Homes, Phase II, Lugbe, Abuja',
+        price: 'Pre-launch prices from ₦6M',
+        description: '300sqm - ₦6M • 450sqm - ₦9M • 600sqm - ₦12M',
     },
     {
         id: 10,
         image: FLEXI_FLIER_karshi_1,
         title: 'Karshi, Abuja',
         price: 'from ₦2M',
-        description: '200sqm-₦2M • 250sqm-₦3M • 300sqm-₦3.3M 400sqm-₦4.5M • 500sqm-₦5M • 900sqm-₦9M',
+        description: '200sqm - ₦2M • 250sqm - ₦3M • 300sqm - ₦3.3M 400sqm - ₦4.5M • 500sqm - ₦5M • 900sqm - ₦9M',
     },
     {
         id: 11,
+        image: FlexiELYSIANHEIGHTS,
+        title: 'Elysian Heights, Kasana, Abuja',
+        price: 'from ₦18M',
+        description: '300sqm - ₦18M • 500sqm - ₦30M',
+    },
+    {
+        id: 99,
+        // new : true,
+        image: FlexiMalete,
+        title: 'Plots of Land at Malete, Kwara State University',
+        price: 'from ₦1M',
+        description: `1m/450 sqm ${<strong>(Outright Payment)</strong>} • 1.1M/450 sqm (6 Months Installment with 30% down-paymment)`,
+    },
+    {
+        id: 100,
         image: FLEXI_FLIER_royal_valley,
         title: 'Royal Valley Estate Ganiki, Sango, Ilorin, Kwara State.',
-        price: 'from ₦350K',
-        description: 'Full Plot(450sqm | 50 x 100ft)',
+        price: 'from ₦2.1M',
+        description: 'Full Plot (450sqm | 50 x 100ft)',
     },
+
+
+
+
+
+
+
     {
         id: 3,
         image: FLEXI_FLIER_Ilorin1,
